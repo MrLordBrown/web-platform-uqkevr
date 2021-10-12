@@ -1,0 +1,67 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: stretch;
+  justify-items: stretch;
+  align-items: stretch;
+  grid-template-areas:
+    "A B C D"
+    "E F G H"
+    "I J K L"
+    "M N O P"
+    "Q R S T";
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.C {
+
+  justify-self: center;
+  align-self: center;
+  grid-area: C;
+  width: 100%;
+  height: 100%;
+}
+
+.A { grid-area: A; }
+
+.D { grid-area: D; }
+
+.E { grid-area: E; }
+
+.F { grid-area: F; }
+
+.G { grid-area: G; }
+
+.H { grid-area: H; }
+
+.I { grid-area: I; }
+
+.J { grid-area: J; }
+
+.K { grid-area: K; }
+
+.L { grid-area: L; }
+
+.M { grid-area: M; }
+
+.N { grid-area: N; }
+
+.O { grid-area: O; }
+
+.P { grid-area: P; }
+
+.Q { grid-area: Q; }
+
+.R { grid-area: R; }
+
+.S { grid-area: S; }
+
+.T { grid-area: T; }
+
+.B { grid-area: B; }
